@@ -26,7 +26,7 @@ O Wordpress é um aplicativo para um sistema de gerenciamento de conteúdo volta
 
 Pré-requisito: aplicar o comando abaixo na pasta /etc/sudoers para aplicar permissões ao usuário.
 
->ansible ALL=(ALL:ALL) NOPASSWD:ALL!
+´ansible ALL=(ALL:ALL) NOPASSWD:ALL´
 
 Criar pasta com o comando mkdir.
 
