@@ -25,7 +25,8 @@ O Wordpress é um aplicativo para um sistema de gerenciamento de conteúdo volta
 ## Instalação do Docker
 
 Pré-requisito: aplicar o comando abaixo na pasta /etc/sudoers para aplicar permissões ao usuário.
-| ansible ALL=(ALL:ALL) NOPASSWD:ALL |
+
+>ansible ALL=(ALL:ALL) NOPASSWD:ALL!
 
 Criar pasta com o comando mkdir.
 
@@ -33,10 +34,10 @@ Criar pasta com o comando mkdir.
 
 Os comandos abaixo instalam vários pacotes de suporte, que serão necessários para as funções de funcionamento dos pacotes do Docker.
 
-| sudo apt-get install \        |
-|    apt-transport-https \      |
-|    ca-certificates \          |
-|    curl \                     |
+| sudo apt-get install \ |
+|    apt-transport-https \ |
+|    ca-certificates \ |
+|    curl \ |
 |    software-properties-common |
 
 
